@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuegos>
+    <juego>
+        <titulo>Alan Wake</titulo>
+        <genero>Acción/Aventura</genero>
+        <anio>2010</anio>
+    </juego>
+    <juego>
+        <titulo>The Witcher 3</titulo>
+        <genero>Rol</genero>
+        <anio>2015</anio>
+    </juego>
+    <juego>
+        <titulo>Civilization VI</titulo>
+        <genero>Estrategia</genero>
+        <anio>2016</anio>
+    </juego>
+</videojuegos>
