@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" encoding="UTF-8"/>
+    <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     
-    <xsl:template match="/">
+    <xsl:template match="/videojuegos">
         <html>
             <head>
                 <title>Lista de Videojuegos</title>
@@ -20,7 +20,7 @@
                     <h1>Mis Videojuegos Favoritos</h1>
                 </header>
                 <main>
-                    <xsl:for-each select="videojuegos/juego">
+                    <xsl:for-each select="juego">
                         <section>
                             <h2><xsl:value-of select="titulo"/></h2>
                             <p><strong>Género:</strong> <xsl:value-of select="genero"/></p>
