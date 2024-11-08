@@ -6,7 +6,7 @@
         <html>
             <head>
             <!-- Titulo de la página -->
-            <title>Lista de Videojuegos</title>
+            <title>Lista Videojuegos</title>
                 <style>
                     <!-- Estilo para el cuerpo de la página -->
                     body {
@@ -61,13 +61,48 @@
                         background: rgb(22, 94, 202); <!-- Fondo azul oscuro -->
                         color: white; <!-- Color de texto en blanco -->
                     }
+                    h1 {
+                        text-align: center;
+                    }
+                    nav {
+                        background-color: rgb(22, 94, 202); /* Color de fondo de la barra de navegación */
+                        padding: 10px 0;
+                        text-align: center;
+                    }
+
+                    nav ul {
+                        list-style-type: none; /* Sin viñetas en la lista */
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    nav ul li {
+                        display: inline; /* Los elementos de la lista se muestran en línea */
+                        margin-right: 15px;
+                    }
+
+                    nav ul li a {
+                        color: white; /* Color de los enlaces */
+                        text-decoration: none; /* Sin subrayado en los enlaces */
+                        font-weight: bold; /* Negrita en el texto de los enlaces */
+                    }
+
+                    nav ul li a:hover {
+                        color: #f4f4f4; /* Color de los enlaces al pasar el cursor */
+                    }
                 </style>
             </head>
             <body>
                 <header>
                 <!-- Encabezado principal de la página -->
-                    <h1>Lista Videojuegos Favoritos</h1>
+                 <nav>
+                    <ul>
+                        <li><a href="videojuegos.xml">Inicio</a></li>
+                        <li><a href="formulario.html">Añadir Videojuego</a></li>
+                     </ul>
+                </nav>  
                 </header> 
+                <h1>Lista Videojuegos Favoritos</h1>
                     <main>
                     <!-- Contenedor de la cuadrícula de videojuegos -->
                     <div class="tabla">
