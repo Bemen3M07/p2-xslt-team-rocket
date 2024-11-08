@@ -13,6 +13,10 @@ Per a la gestió del servidor i la manipulació de dades, s'utilitzen les següe
 - XML i XSLT: XML s'utilitza per emmagatzemar la informació dels videojocs, i XSLT per transformar l'XML en HTML de manera dinàmica.
 - CSS: Per estilitzar el contingut de la web i millorar-ne la presentació.
 
+## Estructura de Carpetes
+L'estructura principal de carpetes del projecte és la següent:
+projecte-videojocs/ │ ├── index.html # Pàgina principal (llistat de videojocs) ├── formulario.html # Pàgina amb el formulari per afegir videojocs ├── afegir_xml.php # Script PHP per processar i afegir dades al fitxer XML ├── videojocs.xml # Fitxer XML amb el llistat de videojocs ├── transformacio.xsl # Fitxer XSLT per transformar l'XML en HTML ├── css/ │ └── estilo.css # Fitxer CSS per al disseny de la web └── README.md # Documentació del projecte
+
 ## Requeriments per a l'Execució del Projecte
 Per executar aquest projecte localment, es necessiten els següents requeriments:
 - Servidor web (per exemple, Apache)
