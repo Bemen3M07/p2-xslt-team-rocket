@@ -15,8 +15,20 @@ Per a la gestió del servidor i la manipulació de dades, s'utilitzen les següe
 
 ## Requeriments per a l'Execució del Projecte
 Per executar aquest projecte localment, es necessiten els següents requeriments:
-- **Servidor web** (per exemple, Apache)
-- **PHP** instal·lat al servidor
+- Servidor web (per exemple, Apache)
+- PHP instal·lat al servidor
 - Accés al sistema de fitxers per a la lectura/escriptura del fitxer XML
-- Suport per a **XSLT** per poder transformar el fitxer XML
+- Suport per a XSLT per poder transformar el fitxer XML
+
+#### Requeriments per a l'Execució del Projecte
+Per executar aquest projecte localment, es necessiten els següents requeriments:
+- Servidor web (per exemple, Apache)
+- PHP instal·lat al servidor
+- Accés al sistema de fitxers per a la lectura/escriptura del fitxer XML
+- Suport per a XSLT per poder transformar el fitxer XML
+
+
+## Funcionalitats del Projecte
+Afegir Videojocs: Mitjançant un formulari, els usuaris poden afegir nous videojocs al llistat.
+Transformació de Dades amb XSLT: L'XML es transforma dinàmicament en HTML, permetent una visualització més clara i atractiva dels videojocs.
 
