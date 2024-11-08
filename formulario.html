@@ -3,28 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Añadir Videojuego</title>
+    <!-- Enlace al archivo CSS para el estilo -->
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <!-- Encabezado de la página -->
     <header>
+        <!-- Menú de navegación -->
         <nav>
             <ul>
+                <!-- Enlace a la página principal -->
                 <li><a href="videojuegos.xml">Inicio</a></li>
+                <!-- Enlace al formulario para añadir un videojuego -->
                 <li><a href="formulario.html">Añadir Videojuego</a></li>
              </ul>
         </nav> 
     </header>
+    
+    <!-- Título principal de la página -->
     <h1>Formulario para añadir un videojuego</h1>
+    
+    <!-- Formulario para enviar datos del videojuego -->
     <form action="añadir_xml.php" method="post">
+        <!-- Campo para el título del videojuego -->
         <label for="titulo">Título:</label>
         <input type="text" name="titulo" id="titulo" required>
         <br>
+        
+        <!-- Campo para el género del videojuego -->
         <label for="genero">Género:</label>
         <input type="text" name="genero" id="genero" required>
         <br>
+        
+        <!-- Campo para el año del videojuego -->
         <label for="anio">Año:</label>
         <input type="number" name="anio" id="anio" required>
         <br>
+        
+        <!-- Botón para enviar el formulario -->
         <input type="submit" value="Añadir Videojuego">
     </form>
 </body>
